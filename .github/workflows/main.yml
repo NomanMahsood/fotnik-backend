@@ -7,7 +7,7 @@ name: CI/CD Pipeline for Docker and AWS EC2
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-push-deploy-backend:
