@@ -34,7 +34,7 @@ jobs:
       - name: Build and Push Backend Docker Image
         uses: docker/build-push-action@v5
         with:
-          context: ./FOTNIK-BACKEND
+          context: .
           push: true
           tags: nomanmahsood0622/fotnik-backend:latest
 
